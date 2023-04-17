@@ -1,4 +1,11 @@
 using System.Collections;
+/*
+ *  EJ Flores
+ *  GameController.cs
+ *  Assignment 11
+ *  This is the GameController. It makes the player take damage after a fixed interval as well as providing inputs for pausing and healing.
+ */
+
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;

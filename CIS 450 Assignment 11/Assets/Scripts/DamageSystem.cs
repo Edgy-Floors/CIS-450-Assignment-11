@@ -1,3 +1,10 @@
+/*
+ *  EJ Flores
+ *  DamageSystem.cs
+ *  Assignment 11
+ *  This is the damage system that my facade connects to. It handles dealing damage through a reference to the health system.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

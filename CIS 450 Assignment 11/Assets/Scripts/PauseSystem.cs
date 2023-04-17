@@ -1,3 +1,10 @@
+/*
+ *  EJ Flores
+ *  PauseSystem.cs
+ *  Assignment 11
+ *  This is the pause system that my facade connects to. It handles pausing and unpausing through setting timescale and popping UI on screen.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

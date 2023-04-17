@@ -1,3 +1,10 @@
+/*
+ *  EJ Flores
+ *  GameFacade.cs
+ *  Assignment 11
+ *  This is the facade that connects to my systems. It enables the higher level functions of healing, getting current health, taking damage, pausing, unpausing, and getting pause state.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

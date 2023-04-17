@@ -13,9 +13,14 @@ public class GameFacade : MonoBehaviour
         h.Heal();
     }
 
-    public void TakeDamage()
+    public int GetHealth()
     {
-        d.DealDamage();
+        return h.GetHealth();
+    }
+
+    public IEnumerator TakeDamage()
+    {
+        return d.DealDamage();
     }
 
     public void Pause()
@@ -26,5 +31,10 @@ public class GameFacade : MonoBehaviour
     public void Unpause()
     {
         p.UnloadPauseMenu();
+    }
+
+    public bool GetPauseState()
+    {
+        return p.GetPauseState();
     }
 }
